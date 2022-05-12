@@ -1,0 +1,79 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300&display=swap');
+
+
+body {
+    background-color: #c94b4b;
+}
+
+h2 {
+    font-family: 'macondo','opensans';
+    font-size: 2em;
+}
+
+p {
+    font-family: 'opensans';
+    font-size: 1.2em;
+}
+
+.header__logo{
+           max-height: 6em;
+}
+
+.header__titulo{
+    text-align: center;
+}
+.header__menuHamburguesa{
+    padding:10px; 
+    margin: -11px;
+    max-height: 2em;
+}
+/* menu */
+ul {
+    list-style: none;
+    font-size:0 
+   }
+   li {
+    display: inline-block;
+    width: 18%;
+    position:relative;
+    font-size: 20px; 
+   }
+   ul ul {
+    position: absolute;
+    display: none;
+   }
+   ul ul li {
+    display: block;
+    bottom: solid black;
+   }
+   ul li:hover ul {
+    display:block;
+   }
+
+   .mapa__imagen{
+       margin: 0px;
+       max-width: 33%;
+   }
+   .mapa__title {
+       font-family:'macondo', 'opensans';
+       font-size: 2em;
+       margin: 2em;
+   }
+
+h3{
+    font-family: macondo;
+    font-size: 1.5em;
+    color: white;
+}
+/* footer */
+
+.footer__logoFacebook{
+    max-width: 5%;
+}
+.footer__logoInstagram{
+    max-width: 4%;
+}
+.footer__logoTwitter{
+    max-width: 4%;
+}
