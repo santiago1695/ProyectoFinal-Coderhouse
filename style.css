@@ -1,14 +1,22 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Open+Sans:wght@300&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #c94b4b;
+    font-family: mocondo, opensans;
+    
 }
 
 h2 {
+    padding: 30px;
     font-family: 'macondo','opensans';
     font-size: 2em;
+    text-align: center;
+    
 }
 
 p {
@@ -16,22 +24,46 @@ p {
     font-size: 1.2em;
 }
 
-.header__logo{
-           max-height: 6em;
+/* menu  */
+header{
+    border: 70px;
+    background-color: #963838;
+    position: fixed ;
+    left: 0;
+    top: 0;
+    width:100%;
 }
 
-.header__titulo{
+.header__logo{
+           max-height: 6em;
+           float: left;
+           
+}
+
+h1{
+    padding:20px 20px;
     text-align: center;
 }
+
 .header__menuHamburguesa{
-    padding:10px; 
+    padding:20px; 
     margin: -11px;
-    max-height: 2em;
+    
+    
 }
-/* menu */
+
+.menuHamburguesa__logo{
+    max-height: 2em;
+    float: left;
+    padding: 0px 62px;
+    margin: 0px 2px;
+    
+}
 ul {
     list-style: none;
-    font-size:0 
+    font-size:0;
+    padding: 3px 176px;
+    
    }
    li {
     display: inline-block;
@@ -42,6 +74,7 @@ ul {
    ul ul {
     position: absolute;
     display: none;
+    padding: 0px;
    }
    ul ul li {
     display: block;
@@ -51,6 +84,8 @@ ul {
     display:block;
    }
 
+
+   /* Principal */
    .mapa__imagen{
        margin: 0px;
        max-width: 33%;
@@ -61,13 +96,45 @@ ul {
        margin: 2em;
    }
 
+   main {
+       padding:20px;
+   }
 h3{
     font-family: macondo;
     font-size: 1.5em;
     color: white;
 }
-/* footer */
 
+/* primera pagina */
+.mapa__title{
+    font-size: 50px;
+}
+
+
+
+
+/*  Pagina de libros */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color: #610404;
+    margin: -10px;
+}
+.footer__copyright{
+    color:white;
+}
 .footer__logoFacebook{
     max-width: 5%;
 }
