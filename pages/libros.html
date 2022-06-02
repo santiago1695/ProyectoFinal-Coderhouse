@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -12,14 +13,14 @@
         <img src="../assets/logo-targaryen.png" alt="logo" class="header__logo" />
         <h1 class="header__title">Canción de hielo y fuego</h1>
 
-        <nav>
-            <img class="header__menuHamburguesa" src="../assets/icono-menu.png" />
+        <nav class="header__menuHamburguesa">
+            <img src="../assets/icono-menu.png" class="menuHamburguesa__logo" />
             <ul>
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="#articulo">Home</a></li>
                 <li>
-                    <a href="casas.html">Casas</a>
+                    <a href="pages/casas.html">Casas</a>
                     <ul>
-                        <li>Arryn</li>
+                        <li><a href="pages/casas.html/#Arryn">Arryn</a></li>
                         <li>Baratheon</li>
                         <li>Greyjoy</li>
                         <li>Lannister</li>
@@ -30,9 +31,9 @@
                         <li>Tyrell</li>
                     </ul>
                 </li>
-                <li><a href="novedades.html">Novedades</a></li>
-                <li><a href="libros.html">Libros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="pages/novedades.html">Novedades</a></li>
+                <li><a href="pages/libros.html">Libros</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -43,16 +44,21 @@
 
     <section>
         <article>
-            <h3>Fuego y Sangre</h3>
-            <img src="../assets/Tapas libros/Fuego y sangre.jpg" alt="Fuego y Sangre">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium sit recusandae porro quae provident corrupti repudiandae quis! Facere fuga quas quam voluptates magni laudantium animi dolorum provident aliquid architecto? Cum.</p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h3>El caballero de los 7 Reinos</h3>
-            <img src="../assets/Tapas libros/elCaballeroDeLosSieteRienos.jpg" alt="El caballero de los siete reinos">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur ad illo tempore aspernatur quod, ullam, modi consequatur exercitationem omnis asperiores, aut sequi obcaecati. Excepturi aspernatur error, non numquam dolore in.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/Tapas libros/Fuego y sangre.jpg" class="card-img-top" alt="Fuego y Sangre">
+                <div class="card-body">
+                    <h3>Fuego y Sangre</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+      
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/Tapas libros/elCaballeroDeLosSieteRienos.jpg" class="card-img-top" alt="El caballero de los siete reinos">
+                <div class="card-body">
+                    <h3>El caballero de los 7 Reinos</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
         </article>
     </section>
     <h2>   
